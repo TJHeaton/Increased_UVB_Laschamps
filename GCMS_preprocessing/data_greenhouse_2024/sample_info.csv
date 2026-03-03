@@ -1,0 +1,241 @@
+Site,SampleID,CoreCode,nGrains
+NA,J285,Cal50,50
+NA,J286,Cal150,150
+NA,J287,Cal300,300
+NA,J288,Cal450,450
+2024_Greenhouse,J334,A_UV_002_(1st sampling),150
+2024_Greenhouse,J335,A_UV_002_(1st sampling),150
+2024_Greenhouse,J336,A_UV_002_(1st sampling),150
+2024_Greenhouse,J337,B_UV_012_(1st sampling),150
+2024_Greenhouse,J338,B_UV_012_(1st sampling),150
+2024_Greenhouse,J339,B_UV_012_(1st sampling),150
+2024_Greenhouse,J340,B_CON_017_(1st sampling),150
+2024_Greenhouse,J341,B_CON_017_(1st sampling),150
+2024_Greenhouse,J342,B_CON_017_(1st sampling),150
+2024_Greenhouse,J343,B_CON_020_(1st sampling),150
+2024_Greenhouse,J344,B_CON_020_(1st sampling),150
+2024_Greenhouse,J345,B_CON_020_(1st sampling),150
+2024_Greenhouse,J346,C_UV_023_(1st sampling),150
+2024_Greenhouse,J347,C_UV_023_(1st sampling),150
+2024_Greenhouse,J348,C_UV_023_(1st sampling),150
+2024_Greenhouse,J349,C_UV_025_(1st sampling),150
+2024_Greenhouse,J350,C_UV_025_(1st sampling),150
+2024_Greenhouse,J351,C_UV_025_(1st sampling),150
+2024_Greenhouse,J352,C_CON_027_(1st sampling),150
+2024_Greenhouse,J353,C_CON_027_(1st sampling),150
+2024_Greenhouse,J354,C_CON_027_(1st sampling),150
+2024_Greenhouse,J355,D_CON_039_(1st sampling),150
+2024_Greenhouse,J356,D_CON_039_(1st sampling),150
+2024_Greenhouse,J357,D_CON_039_(1st sampling),150
+2024_Greenhouse,J358,E_UV_043_(1st sampling),150
+2024_Greenhouse,J359,E_UV_043_(1st sampling),150
+2024_Greenhouse,J360,E_UV_043_(1st sampling),150
+2024_Greenhouse,J361,E_CON_049_(1st sampling),150
+2024_Greenhouse,J362,E_CON_049_(1st sampling),150
+2024_Greenhouse,J363,E_CON_049_(1st sampling),150
+2024_Greenhouse,J364,F_UV_052_(1st sampling),150
+2024_Greenhouse,J365,F_UV_052_(1st sampling),150
+2024_Greenhouse,J366,F_UV_052_(1st sampling),150
+2024_Greenhouse,J367,F_CON_060_(1st sampling),150
+2024_Greenhouse,J368,F_CON_060_(1st sampling),150
+2024_Greenhouse,J369,F_CON_060_(1st sampling),150
+2024_Greenhouse,J370,A_UV_001_(1st sampling),150
+2024_Greenhouse,J371,A_UV_001_(1st sampling),150
+2024_Greenhouse,J372,A_UV_001_(1st sampling),150
+2024_Greenhouse,J373,A_UV_001_(2nd sampling),150
+2024_Greenhouse,J374,A_UV_001_(2nd sampling),150
+2024_Greenhouse,J375,A_UV_001_(2nd sampling),150
+2024_Greenhouse,J376,A_UV_004_(1st sampling),150
+2024_Greenhouse,J377,A_UV_004_(1st sampling),150
+2024_Greenhouse,J378,A_UV_004_(1st sampling),150
+2024_Greenhouse,J379,A_UV_004_(2nd sampling),150
+2024_Greenhouse,J380,A_UV_004_(2nd sampling),150
+2024_Greenhouse,J381,A_UV_004_(2nd sampling),150
+2024_Greenhouse,J382,A_CON_006_(1st sampling),150
+2024_Greenhouse,J383,A_CON_006_(1st sampling),150
+2024_Greenhouse,J384,A_CON_006_(1st sampling),150
+2024_Greenhouse,J385,A_CON_006_(2nd sampling),150
+2024_Greenhouse,J386,A_CON_006_(2nd sampling),150
+2024_Greenhouse,J387,A_CON_006_(2nd sampling),150
+2024_Greenhouse,J388,B_UV_014_(1st sampling),150
+2024_Greenhouse,J389,B_UV_014_(1st sampling),150
+2024_Greenhouse,J390,B_UV_014_(1st sampling),150
+2024_Greenhouse,J391,B_CON_016_(1st sampling),150
+2024_Greenhouse,J392,B_CON_016_(1st sampling),150
+2024_Greenhouse,J393,B_CON_016_(1st sampling),150
+2024_Greenhouse,J394,B_CON_016_(2nd sampling),150
+2024_Greenhouse,J395,B_CON_016_(2nd sampling),150
+2024_Greenhouse,J396,B_CON_016_(2nd sampling),150
+2024_Greenhouse,J397,C_CON_028_(1st sampling),150
+2024_Greenhouse,J398,C_CON_028_(1st sampling),150
+2024_Greenhouse,J399,C_CON_028_(1st sampling),150
+2024_Greenhouse,J400,C_CON_028_(2nd sampling),150
+2024_Greenhouse,J401,C_CON_028_(2nd sampling),150
+2024_Greenhouse,J402,C_CON_028_(2nd sampling),150
+2024_Greenhouse,J403,C_CON_029_(1st sampling),150
+2024_Greenhouse,J404,C_CON_029_(1st sampling),150
+2024_Greenhouse,J405,C_CON_029_(1st sampling),150
+2024_Greenhouse,J406,C_CON_029_(2nd sampling),150
+2024_Greenhouse,J407,C_CON_029_(2nd sampling),150
+2024_Greenhouse,J408,C_CON_029_(2nd sampling),150
+2024_Greenhouse,J409,C_CON_029_(3rd sampling),150
+2024_Greenhouse,J410,C_CON_029_(3rd sampling),150
+2024_Greenhouse,J411,C_CON_029_(3rd sampling),150
+2024_Greenhouse,J412,C_CON_030_(1st sampling),150
+2024_Greenhouse,J413,C_CON_030_(1st sampling),150
+2024_Greenhouse,J414,C_CON_030_(1st sampling),150
+2024_Greenhouse,J415,C_CON_030_(2nd sampling),150
+2024_Greenhouse,J416,C_CON_030_(2nd sampling),150
+2024_Greenhouse,J417,C_CON_030_(2nd sampling),150
+2024_Greenhouse,J418,D_UV_031_(1st sampling),150
+2024_Greenhouse,J419,D_UV_031_(1st sampling),150
+2024_Greenhouse,J420,D_UV_031_(1st sampling),150
+2024_Greenhouse,J421,D_UV_031_(2nd sampling),150
+2024_Greenhouse,J422,D_UV_031_(2nd sampling),150
+2024_Greenhouse,J423,D_UV_031_(2nd sampling),150
+2024_Greenhouse,J424,D_UV_031_(3rd sampling),150
+2024_Greenhouse,J425,D_UV_031_(3rd sampling),150
+2024_Greenhouse,J426,D_UV_031_(3rd sampling),150
+2024_Greenhouse,J427,D_UV_032_(1st sampling),150
+2024_Greenhouse,J428,D_UV_032_(1st sampling),150
+2024_Greenhouse,J429,D_UV_032_(1st sampling),150
+2024_Greenhouse,J430,D_UV_032_(2nd sampling),150
+2024_Greenhouse,J431,D_UV_032_(2nd sampling),150
+2024_Greenhouse,J432,D_UV_032_(2nd sampling),150
+2024_Greenhouse,J433,D_UV_033_(1st sampling),150
+2024_Greenhouse,J434,D_UV_033_(1st sampling),150
+2024_Greenhouse,J435,D_UV_033_(1st sampling),150
+2024_Greenhouse,J436,D_UV_033_(2nd sampling),150
+2024_Greenhouse,J437,D_UV_033_(2nd sampling),150
+2024_Greenhouse,J438,D_UV_033_(2nd sampling),150
+2024_Greenhouse,J439,D_UV_034_(1st sampling),150
+2024_Greenhouse,J440,D_UV_034_(1st sampling),150
+2024_Greenhouse,J441,D_UV_034_(1st sampling),150
+2024_Greenhouse,J442,D_UV_034_(2nd sampling),150
+2024_Greenhouse,J443,D_UV_034_(2nd sampling),150
+2024_Greenhouse,J444,D_UV_034_(2nd sampling),150
+2024_Greenhouse,J445,D_UV_035_(1st sampling),150
+2024_Greenhouse,J446,D_UV_035_(1st sampling),150
+2024_Greenhouse,J447,D_UV_035_(1st sampling),150
+2024_Greenhouse,J448,D_UV_035_(2nd sampling),150
+2024_Greenhouse,J449,D_UV_035_(2nd sampling),150
+2024_Greenhouse,J450,D_UV_035_(2nd sampling),150
+2024_Greenhouse,J451,D_CON_036_(1st sampling),150
+2024_Greenhouse,J452,D_CON_036_(1st sampling),150
+2024_Greenhouse,J453,D_CON_036_(1st sampling),150
+2024_Greenhouse,J454,D_CON_036_(2nd sampling),150
+2024_Greenhouse,J455,D_CON_036_(2nd sampling),150
+2024_Greenhouse,J456,D_CON_036_(2nd sampling),150
+2024_Greenhouse,J457,D_CON_036_(3rd sampling),150
+2024_Greenhouse,J458,D_CON_036_(3rd sampling),150
+2024_Greenhouse,J459,D_CON_036_(3rd sampling),150
+2024_Greenhouse,J460,D_CON_040_(1st sampling),150
+2024_Greenhouse,J461,D_CON_040_(1st sampling),150
+2024_Greenhouse,J462,D_CON_040_(1st sampling),150
+2024_Greenhouse,J463,Cal50,50
+2024_Greenhouse,J464,Cal150,150
+2024_Greenhouse,J465,Cal300,300
+2024_Greenhouse,J466,Cal450,450
+2024_Greenhouse,J467,Cal50,50
+2024_Greenhouse,J468,Cal150,150
+2024_Greenhouse,J469,Cal300,300
+2024_Greenhouse,J470,Cal450,450
+2024_Greenhouse,J471,Cal50,50
+2024_Greenhouse,J472,Cal150,150
+2024_Greenhouse,J473,Cal300,300
+2024_Greenhouse,J474,Cal450,450
+2024_Greenhouse,J475,Cal50,50
+2024_Greenhouse,J476,Cal150,150
+2024_Greenhouse,J477,Cal300,300
+2024_Greenhouse,J478,Cal450,450
+2024_Greenhouse,J479,Cal50,50
+2024_Greenhouse,J480,Cal150,150
+2024_Greenhouse,J481,Cal300,300
+2024_Greenhouse,J482,Cal450,450
+2024_Greenhouse,J483,Cal50,50
+2024_Greenhouse,J484,Cal150,150
+2024_Greenhouse,J485,Cal300,300
+2024_Greenhouse,J486,Cal450,450
+2024_Greenhouse,J487,Cal50,50
+2024_Greenhouse,J488,Cal150,150
+2024_Greenhouse,J489,Cal300,300
+2024_Greenhouse,J490,Cal450,450
+2024_Greenhouse,J491,Cal50,50
+2024_Greenhouse,J492,Cal150,150
+2024_Greenhouse,J493,Cal300,300
+2024_Greenhouse,J494,Cal450,450
+NA,J495,Cal50,50
+NA,J496,Cal150,150
+NA,J497,Cal300,300
+NA,J498,Cal450,450
+NA,J499,Cal50,50
+NA,J500,Cal150,150
+NA,J501,Cal300,300
+NA,J502,Cal450,450
+NA,J503,Cal50,50
+NA,J504,Cal150,150
+NA,J505,Cal300,300
+NA,J506,Cal450,450
+NA,J507,Cal50,50
+NA,J508,Cal150,150
+NA,J509,Cal300,300
+NA,J510,Cal450,450
+2024_Greenhouse,J511,D_CON_040_(2nd sampling),150
+2024_Greenhouse,J512,D_CON_040_(2nd sampling),150
+2024_Greenhouse,J513,D_CON_040_(2nd sampling),150
+2024_Greenhouse,J514,E_CON_047_(1st sampling),150
+2024_Greenhouse,J515,E_CON_047_(1st sampling),150
+2024_Greenhouse,J516,E_CON_047_(1st sampling),150
+2024_Greenhouse,J517,E_CON_048_(1st sampling),150
+2024_Greenhouse,J518,E_CON_048_(1st sampling),150
+2024_Greenhouse,J519,E_CON_048_(1st sampling),150
+2024_Greenhouse,J520,E_CON_048_(2nd sampling),150
+2024_Greenhouse,J521,E_CON_048_(2nd sampling),150
+2024_Greenhouse,J522,E_CON_048_(2nd sampling),150
+2024_Greenhouse,J523,E_CON_048_(3rd sampling),150
+2024_Greenhouse,J524,E_CON_048_(3rd sampling),150
+2024_Greenhouse,J525,E_CON_048_(3rd sampling),150
+2024_Greenhouse,J526,F_UV_053_(1st sampling),150
+2024_Greenhouse,J527,F_UV_053_(1st sampling),150
+2024_Greenhouse,J528,F_UV_053_(1st sampling),150
+2024_Greenhouse,J529,F_UV_053_(2nd sampling),150
+2024_Greenhouse,J530,F_UV_053_(2nd sampling),150
+2024_Greenhouse,J531,F_UV_053_(2nd sampling),150
+2024_Greenhouse,J532,F_UV_054_(1st sampling),150
+2024_Greenhouse,J533,F_UV_054_(1st sampling),150
+2024_Greenhouse,J534,F_UV_054_(1st sampling),150
+2024_Greenhouse,J535,F_UV_054_(2nd sampling),150
+2024_Greenhouse,J536,F_UV_054_(2nd sampling),150
+2024_Greenhouse,J537,F_UV_054_(2nd sampling),150
+2024_Greenhouse,J538,F_UV_054_(3rd sampling),150
+2024_Greenhouse,J539,F_UV_054_(3rd sampling),150
+2024_Greenhouse,J540,F_UV_054_(3rd sampling),150
+2024_Greenhouse,J541,F_UV_055_(1st sampling),150
+2024_Greenhouse,J542,F_UV_055_(1st sampling),150
+2024_Greenhouse,J543,F_UV_055_(1st sampling),150
+2024_Greenhouse,J608,F_UV_055_(2nd sampling),150
+2024_Greenhouse,J609,F_UV_055_(2nd sampling),150
+2024_Greenhouse,J610,F_UV_055_(2nd sampling),150
+2024_Greenhouse,J611,F_CON_056_(1st sampling),150
+2024_Greenhouse,J612,F_CON_056_(1st sampling),150
+2024_Greenhouse,J613,F_CON_056_(1st sampling),150
+2024_Greenhouse,J614,F_CON_056_(2nd sampling),150
+2024_Greenhouse,J615,F_CON_056_(2nd sampling),150
+2024_Greenhouse,J616,F_CON_056_(2nd sampling),150
+2024_Greenhouse,J617,F_CON_057_(1st sampling),150
+2024_Greenhouse,J618,F_CON_057_(1st sampling),150
+2024_Greenhouse,J619,F_CON_057_(1st sampling),150
+2024_Greenhouse,J620,F_CON_057_(2nd sampling),150
+2024_Greenhouse,J621,F_CON_057_(2nd sampling),150
+2024_Greenhouse,J622,F_CON_057_(2nd sampling),150
+2024_Greenhouse,J623,F_CON_059_(1st sampling),150
+2024_Greenhouse,J624,F_CON_059_(1st sampling),150
+2024_Greenhouse,J625,F_CON_059_(1st sampling),150
+2024_Greenhouse,J626,F_CON_059_(2nd sampling),150
+2024_Greenhouse,J627,F_CON_059_(2nd sampling),150
+2024_Greenhouse,J628,F_CON_059_(2nd sampling),150
+2024_Greenhouse,J709,Cal50,50
+2024_Greenhouse,J710,Cal150,150
+2024_Greenhouse,J711,Cal300,300
+2024_Greenhouse,J712,Cal450,450
+
