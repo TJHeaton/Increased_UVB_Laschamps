@@ -13,7 +13,7 @@ box_plot_locations <- -boxplot_width + ((1:n_obs_per_period) - 0.5) * (2 * boxpl
 
 
 # Plot every time period with smaller box plots
-all_periods_malformation_laschamps_plot <- ggplot(malformation_rate_output_by_period, aes(x = substr(period, 1, 5), y = prob_malform)) +
+all_periods_malformation_laschamps_plot <- ggplot(malformation_rate_output_by_period, aes(x = substr(period, 1, 8), y = prob_malform)) +
   geom_crossbar(aes(ymax = prob_malform_upper_CI, ymin = prob_malform_lower_CI, fill = period),
                 linewidth = 0.5, width = 2 * boxplot_width) +
   labs(fill = "Time Period") +

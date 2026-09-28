@@ -98,7 +98,7 @@ gcms_lm_plot_legend <- full_output %>%
               data = pca_individual_replicate_data,
               aes(x = expected_paleomag, y = calibrated),
               col= "red", alpha = 0.5) +
-  geom_point(aes(fill = substr(Time, 1, 5)), size = 4, pch = 22) +
+  geom_point(aes(fill = substr(Time, 1, 8)), size = 4, pch = 22) +
   theme_bw(base_size = 9) +
   xlab(expression(paste("Geomagnetic Axial Dipole Moment ( x 10"^21," Am"^2," / ZAm"^2, ")")))+
   ylab(expression(paste(italic("para"),"-Coumaric Acid (ng grain"^-1,")"))) +
@@ -151,8 +151,8 @@ gcms_laschamps_ticks <- laschamps_ticks
 gcms_laschamps_label_x_val <- 0.37
 
 
-gcms_time_period_plot_all_replicates <- ggplot(pca_individual_replicate_data, aes(x = substr(Time, 1, 5), y = calibrated)) +
-  geom_boxplot(aes(fill = substr(Time, 1, 5)), width = 2 * boxplot_width, outlier.shape = NA) +
+gcms_time_period_plot_all_replicates <- ggplot(pca_individual_replicate_data, aes(x = substr(Time, 1, 8), y = calibrated)) +
+  geom_boxplot(aes(fill = substr(Time, 1, 8)), width = 2 * boxplot_width, outlier.shape = NA) +
   scale_fill_manual(values = as.character(plot_palette)) +
   annotate("point",
            shape = 16,

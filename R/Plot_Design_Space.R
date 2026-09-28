@@ -2,7 +2,7 @@
 design_space <- ggplot(full_output,
                        aes(x = expected_paleomag, y = calage)) +
   geom_path(aes(x = ZAM2, y = calage), data = paleomag[paleomag$calage < 66000,], colour = grey(0.15, 0.3)) +
-  geom_point(aes(fill = substr(Time, 1, 5)), size = 4, pch = 22) +
+  geom_point(aes(fill = substr(Time, 1, 8)), size = 4, pch = 22) +
   xlab(expression(paste("Geomagnetic Axial Dipole Moment ( x 10"^21," Am"^2," / ZAm"^2, ")")))+
   ylab("Calendar Age (yr BP)") +
   scale_fill_manual(values = as.character(plot_palette)) +
