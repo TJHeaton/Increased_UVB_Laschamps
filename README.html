@@ -352,15 +352,16 @@ display: none;
 </div>
 
 
-<div id="r-analysis-increased-uv-b-during-the-laschamps-event" class="section level1">
-<h1>R Analysis: Increased UV-B during the <em>Laschamps Event</em></h1>
+<div id="r-analysis-increased-uv-b-during-the-laschamps-geomagnetic-excursion" class="section level1">
+<h1>R Analysis: Increased UV-B during the <em>Laschamps</em> Geomagnetic
+Excursion</h1>
 <p>This repository contains all the R code used in</p>
 <p><strong>Reduced geomagnetic shielding increased UV-B radiation at
-Earth’s surface during the <em>Laschamps Event</em></strong></p>
+Earth’s surface during the <em>Laschamps</em> Geomagnetic
+Excursion</strong></p>
 <p>by Heaton TJ, Wilkinson-Rowe E, Krüger LC, Bard E, Lane C, McGuire A,
 Robson TM, Takeshi Nakagawa T &amp; Seddon AWR</p>
-<p>(Researchsquare version available at - <strong>to
-update</strong>)</p>
+<p>(EarthArXiV version available at <a href="https://eartharxiv.org/repository/view/12829/" class="uri">https://eartharxiv.org/repository/view/12829/</a>)</p>
 <div id="installation-of-required-packages" class="section level2">
 <h2>Installation of required packages</h2>
 <p>To implement the manuscript code, you will also need to have
@@ -415,9 +416,10 @@ Analysis)</h3>
 </ul>
 <p>This performs the main manuscript analysis of the sub-fossil Lake
 Suigetsu pollen from our designed five sampled periods (1.3, 8, 41, 53
-and 65ka BP). Specifically, we analyse:</p>
+and 65 ka BP). Specifically, we analyse:</p>
 <ol style="list-style-type: decimal">
-<li>p-CA content (including Figures 2 and S4)</li>
+<li><em>para</em>-Coumaric acid (<em>p</em>-CA) content (including
+Figures 2 and S4)</li>
 <li>Malformation probabilities (including Figure 3)</li>
 </ol>
 <p>It will also create a plot of the design space (Figure S3). As the
@@ -431,15 +433,15 @@ plots will be saved as png files in the <code>data</code> folder.</p>
 </ul>
 <p>Independent analysis of the greenhouse experiment on 60 cultivars of
 Pinus mugo var. Mumpitz reported in Materials and Methods. This
-experiment considers the relative p-CA response between a treatment
-group (irradiated with UV-B dose of 16.8 kJ m<sup>-2</sup>
+experiment considers the relative <em>p</em>-CA response between a
+treatment group (irradiated with UV-B dose of 16.8 kJ m<sup>-2</sup>
 day<sup>-1</sup><sub>BE</sub>) and control group having no UV-B exposure
 (i.e., 0 kJ m<sup>-2</sup> day<sup>-1</sup><sub>BE</sub>). This code
 also generates Figure S6.</p>
 <p>The analysis mimics that performed when comparing the relative
-increase in p-CA in subfossil pollen from the <em>Laschamps Event</em>
-when compared to the other time periods sampled in the Lake Suigetsu
-sediment core.</p>
+increase in <em>p</em>-CA in subfossil pollen from the <em>Laschamps
+Event</em> when compared to the other time periods sampled in the Lake
+Suigetsu sediment core.</p>
 </div>
 <div id="analysis-of-present-day-uv-b-levels-in-raleigh-n.-california-usa" class="section level3">
 <h3>Analysis of present day UV-B levels in Raleigh, N. California
@@ -457,17 +459,18 @@ altitude. To calculate the present-day UV-B fluxes, we use the years
 from 2005–2024 (although the years 2020 and 2021 are entirely missing
 from the USDA database due to the impact of COVID-19).</p>
 </div>
-<div id="pre-processing-of-gcms-data-to-obtain-pca-values" class="section level3">
-<h3>Pre-processing of GCMS data to obtain pCA values</h3>
+<div id="addition-pre-processing-of-gcms-data-to-obtain-p-ca-values" class="section level3">
+<h3>Addition: Pre-processing of GCMS data to obtain <em>p</em>-CA
+values</h3>
 <p>The code to perform the pre-processing steps to obtain the pCA values
 for both the sub-fossil Lake Suigetsu pollen samples and the greenhouse
 cultivar experiments is found in the subdirectory:</p>
 <ul>
 <li><code>GCMS_preprocessing</code></li>
 </ul>
-<p>This can be run independently (with documentation contained within
-the directory) and will output the GCMS/pCA values used for analysis in
-the main paper.</p>
+<p>This code is self-contained can be run independently (the
+documentation is contained within the subdirectory) and will output the
+GCMS/pCA values used for analysis in the main paper.</p>
 </div>
 </div>
 </div>

@@ -1,11 +1,11 @@
-# R Analysis: Increased UV-B during the _Laschamps Event_
+# R Analysis: Increased UV-B during the _Laschamps_ Geomagnetic Excursion
 This repository contains all the R code used in 
 
-**Reduced geomagnetic shielding increased UV-B radiation at Earth’s surface during the _Laschamps Event_** 
+**Reduced geomagnetic shielding increased UV-B radiation at Earth’s surface during the _Laschamps_ Geomagnetic Excursion** 
 
 by Heaton TJ, Wilkinson-Rowe E, Krüger LC, Bard E, Lane C, McGuire A, Robson TM, Takeshi Nakagawa T & Seddon AWR  
 
-(Researchsquare version available at - **to update**)
+(EarthArXiV version available at https://eartharxiv.org/repository/view/12829/)
 
 ## Installation of required packages 
 To implement the manuscript code, you will also need to have installed the following libraries:
@@ -41,9 +41,9 @@ All scripts can be found in the `R/` directory. The only scripts which need to b
 
 - *001_UV_B_Analysis_Final.R*
 
-This performs the main manuscript analysis of the sub-fossil Lake Suigetsu pollen from our designed five sampled periods (1.3, 8, 41, 53 and 65ka BP). Specifically, we analyse:
+This performs the main manuscript analysis of the sub-fossil Lake Suigetsu pollen from our designed five sampled periods (1.3, 8, 41, 53 and 65 ka BP). Specifically, we analyse:
 
-1. p-CA content (including Figures 2 and S4)
+1. _para_-Coumaric acid (_p_-CA) content (including Figures 2 and S4)
 2. Malformation probabilities (including Figure 3)
 
 It will also create a plot of the design space (Figure S3). As the analysis runs then it will print key information to the R terminal. All plots will be saved as png files in the `data` folder. 
@@ -52,9 +52,9 @@ It will also create a plot of the design space (Figure S3). As the analysis runs
 
 - *002_Analyse_Cultivar_Experiment.R*
 
-Independent analysis of the greenhouse experiment on 60 cultivars of Pinus mugo var. Mumpitz reported in Materials and Methods. This experiment considers the relative p-CA response between a treatment group (irradiated with UV-B dose of 16.8 kJ m<sup>-2</sup> day<sup>-1</sup><sub>BE</sub>) and control group having no UV-B exposure (i.e., 0 kJ m<sup>-2</sup> day<sup>-1</sup><sub>BE</sub>). This code also generates Figure S6. 
+Independent analysis of the greenhouse experiment on 60 cultivars of Pinus mugo var. Mumpitz reported in Materials and Methods. This experiment considers the relative _p_-CA response between a treatment group (irradiated with UV-B dose of 16.8 kJ m<sup>-2</sup> day<sup>-1</sup><sub>BE</sub>) and control group having no UV-B exposure (i.e., 0 kJ m<sup>-2</sup> day<sup>-1</sup><sub>BE</sub>). This code also generates Figure S6. 
 
-The analysis mimics that performed when comparing the relative increase in p-CA in subfossil pollen from the _Laschamps Event_ when compared to the other time periods sampled in the Lake Suigetsu sediment core.    
+The analysis mimics that performed when comparing the relative increase in _p_-CA in subfossil pollen from the _Laschamps Event_ when compared to the other time periods sampled in the Lake Suigetsu sediment core.    
 
 ### Analysis of present day UV-B levels in Raleigh, N. California (USA) 
 
@@ -64,7 +64,7 @@ Calculates the mean present-day UV-B dose in Raleigh, N. Carolina (35˚ 73' N, 7
 
 Raleigh is intended to provide a close analogue to Lake Suigetsu (35˚ 35' N, 135˚ 53' E, 0m amsl) being at an almost identical latitude and altitude. To calculate the present-day UV-B fluxes, we use the years from 2005–2024 (although the years 2020 and 2021 are entirely missing from the USDA database due to the impact of COVID-19).  
 
-### Addition: Pre-processing of GCMS data to obtain pCA values
+### Addition: Pre-processing of GCMS data to obtain _p_-CA values
 
 The code to perform the pre-processing steps to obtain the pCA values for both the sub-fossil Lake Suigetsu pollen samples and the greenhouse cultivar experiments is found in the subdirectory:
 
