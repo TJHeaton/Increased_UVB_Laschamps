@@ -113,11 +113,25 @@ all_periods_malformation_laschamps_plot <- all_periods_malformation_laschamps_pl
     legend.margin = margin(1, 1, 1, 1)
   )
 
-
-
-
 # Create plot
 all_periods_malformation_laschamps_plot
-ggsave(filename = paste("output/Fig3_UV_B_Analysis_Malformations_by_Period.jpg", sep = ""),
-       width = 8.59, height = 5.58, units = "in")
+
+# Use function ggsave to export plot
+if(plot_type == "svg") {
+  ggsave(filename = paste("output/Fig3_UV_B_Analysis_Malformations_by_Period.svg", sep = ""),
+         width = 8.59, 
+         height = 5.58, 
+         units = "in")
+} else if(plot_type == "png") { # Save as png
+  ggsave(filename = paste("output/Fig3_UV_B_Analysis_Malformations_by_Period.png", sep = ""),
+         width = 8.59, 
+         height = 5.58, 
+         units = "in")
+} else {
+  cat("Unknown plotting type selected: Must be \"png\" or \"svg\" \n")
+}
+
+
+
+
 

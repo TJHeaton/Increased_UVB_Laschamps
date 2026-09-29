@@ -65,11 +65,19 @@ LeveragePlot <- function() {
 }
 
 
+# Create and export plot
+if(plot_type == "svg") {
+  svg(filename = paste("output/FigS4_UV_B_LinearModel_ResidualsFit_Replicate_Level.svg", sep = ""),
+      width = 1.2 * 8.59, height = 1.2 * 5.58)
+} else if (plot_type == "png") { # Save as png
+  png(filename = paste("output/FigS4_UV_B_LinearModel_ResidualsFit_Replicate_Level.png", sep = ""),
+      width = 1.2 * 8.59, height = 1.2 * 5.58,
+      units = "in",
+      res = 480)
+} else {
+  cat("Unknown plotting type selected: Must be \"png\" or \"svg\" \n")
+}
 
-png(filename = paste("output/FigS4_UV_B_LinearModel_ResidualsFit_Replicate_Level.png", sep = ""),
-    width = 1.2 * 8.59, height = 1.2 * 5.58,
-    units = "in",
-    res = 480)
 par(mfrow = c(2, 2),
     mar = c(3, 3, 1.5, 1.5),
     mgp = c(2, 1, 0),
@@ -211,6 +219,22 @@ plot_grid(gcms_lm_plot_legend,
           gcms_time_period_plot_all_replicates,
           ncol = 2, nrow= 1,
           labels = c("A", "B"))
-ggsave(filename = paste("output/Fig2_UV_B_Analysis_pCA_All_Replicates.jpg", sep = ""),
-       width = 8.59, height = 5.58, units = "in")
+
+# Use function ggsave to export plot
+if(plot_type == "svg") {
+  ggsave(filename = paste("output/Fig2_UV_B_Analysis_pCA_All_Replicates.svg", sep = ""),
+         width = 8.59, 
+         height = 5.58, 
+         units = "in")
+} else if (plot_type == "png") { # Save as png
+  ggsave(filename = paste("output/Fig2_UV_B_Analysis_pCA_All_Replicates.png", sep = ""),
+         width = 8.59, 
+         height = 5.58, 
+         units = "in")
+} else {
+  cat("Unknown plotting type selected: Must be \"png\" or \"svg\" \n")
+}
+
+
+
 

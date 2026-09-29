@@ -3,6 +3,10 @@
 
 library(tidyverse)
 library(cowplot)
+library(svglite)
+
+# Choose file type for plotting output
+plot_type <- "png" # Can also choose "svg"
 
 conf_level <- 0.95
 
@@ -71,8 +75,23 @@ cultivar_plot_by_treatment <- cultivar_plot_by_treatment +
 
 cultivar_plot_by_treatment
 
-ggsave("output/FigS6_Cultivar_Plot_by_Treatment.png",
-       width = 8, height = 5)
+
+
+# Use function ggsave to export plot
+if(plot_type == "svg") {
+  ggsave("output/FigS6_Cultivar_Plot_by_Treatment.svg",
+         width = 8, 
+         height = 5)
+} else if (plot_type == "png") { # Save as png
+  ggsave("output/FigS6_Cultivar_Plot_by_Treatment.png",
+         width = 8, 
+         height = 5)
+} else {
+  cat("Unknown plotting type selected: Must be \"png\" or \"svg\" \n")
+}
+
+
+
 
 ########## Fieller's test to compare groups
 alpha <- (1 - conf_level)/2 # Uses conf_level from main analysis

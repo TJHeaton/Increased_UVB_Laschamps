@@ -28,7 +28,8 @@ q_val_tail <- -qnorm((1-conf_level)/2)
 # Select plot size
 label_size <- 2.4
 
-
+# Choose file type for plotting output
+plot_type <- "png" # Can also choose "svg"
 
 
 # Libraries to make plotting easier
@@ -38,6 +39,7 @@ library(readr)
 library(tidyverse)
 library(colorBlindness) # For plotting colours
 library(aod) # For including overdispersion in logistic regression of malformation counts
+library(svglite)
 
 source("R/FigureLabel.R") # Functions to make nice labelling of panel plots
 

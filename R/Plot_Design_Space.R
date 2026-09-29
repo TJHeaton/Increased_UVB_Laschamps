@@ -20,6 +20,18 @@ design_space <- ggplot(full_output,
 
 design_space
 
+# Use function ggsave to export plot
+if(plot_type == "svg") {
+  ggsave("output/FigS3_UV_B_Analysis_Design_Space.svg", 
+         width = 0.7 * 5.58, 
+         height = 0.7 * 5.58, 
+         units = "in")
+} else if(plot_type == "png") { # Save as png
+  ggsave("output/FigS3_UV_B_Analysis_Design_Space.png", 
+         width = 0.7 * 5.58, 
+         height = 0.7 * 5.58, 
+         units = "in")
+} else {
+  cat("Unknown plotting type selected: Must be \"png\" or \"svg\" \n")
+}
 
-# use function ggsave to export plot to jpeg...
-ggsave("output/FigS3_UV_B_Analysis_Design_Space.jpg", width = 0.7 * 5.58, height = 0.7 * 5.58, units = "in")
