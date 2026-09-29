@@ -1,5 +1,5 @@
 # R Analysis: Increased UV-B during the _Laschamps_ Geomagnetic Excursion
-This repository contains all the R code used in 
+This repository contains all the R code and data used in 
 
 **Reduced geomagnetic shielding increased UV-B radiation at Earth’s surface during the _Laschamps_ Geomagnetic Excursion** 
 
@@ -67,7 +67,7 @@ The analysis mimics that performed when comparing the relative increase in _p_-C
 
 - *004_Analyse_USDA_Present_Day.R*
 
-Calculates the mean present-day UV-B dose in Raleigh, N. Carolina (35˚ 73' N, 78˚ 68' W, 120m amsl) based on daily measurements from 1st March - 31st May (the expected period of pollen production for Pinus D.) available from the USDA at https://uvb.nrel.colostate.edu/UVB/.  
+Calculates the mean present-day UV-B dose in Raleigh, N. Carolina (35˚ 73' N, 78˚ 68' W, 120m amsl) based on daily measurements from 1st March - 31st May (the expected period of pollen production for Pinus D.) taken from the USDA at https://uvb.nrel.colostate.edu/UVB/.  
 
 Raleigh is intended to provide a close analogue to Lake Suigetsu (35˚ 35' N, 135˚ 53' E, 0m amsl) being at an almost identical latitude and altitude. To calculate the present-day UV-B fluxes, we use the years from 2005–2024 (although the years 2020 and 2021 are entirely missing from the USDA database due to the impact of COVID-19).  
 
