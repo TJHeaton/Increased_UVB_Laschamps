@@ -80,7 +80,14 @@ The code to perform the pre-processing steps to obtain the _p_-CA values for bot
 This code is self-contained can be run independently (the documentation is contained within the subdirectory) and will output the GCMS _p_-CA values used for analysis in the main paper.  
 
 
+## How to cite
+If you wish to cite this data and analysis please use:
 
+Heaton TJ & Seddon AWR (2026). TJHeaton/Increased_UVB_Laschamps: Reduced geomagnetic shielding increased UV-B radiation at Earth's surface during the Laschamps Geomagnetic Excursion (Version v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23063303
+
+You can export the citation in different styles and formats by clicking the icon below:
+
+[![DOI](https://zenodo.org/badge/1171805963.svg)](https://doi.org/10.5281/zenodo.23063302)
 
 
 
