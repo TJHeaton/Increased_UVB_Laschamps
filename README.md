@@ -73,11 +73,11 @@ Raleigh is intended to provide a close analogue to Lake Suigetsu (35˚ 35' N, 13
 
 ### Addition: Pre-processing of GCMS data to obtain _p_-CA values
 
-The code to perform the pre-processing steps to obtain the pCA values for both the sub-fossil Lake Suigetsu pollen samples and the greenhouse cultivar experiments is found in the subdirectory:
+The code to perform the pre-processing steps to obtain the _p_-CA values for both the sub-fossil Lake Suigetsu pollen samples and the greenhouse cultivar experiments is found in the subdirectory:
 
 - `GCMS_preprocessing`
 
-This code is self-contained can be run independently (the documentation is contained within the subdirectory) and will output the GCMS/pCA values used for analysis in the main paper.  
+This code is self-contained can be run independently (the documentation is contained within the subdirectory) and will output the GCMS _p_-CA values used for analysis in the main paper.  
 
 
 
