@@ -3,7 +3,7 @@ This repository contains all the R code and data used in
 
 **Reduced geomagnetic shielding increased UV-B radiation at Earth’s surface during the _Laschamps_ Geomagnetic Excursion** 
 
-by Heaton TJ, Wilkinson-Rowe E, Krüger LC, Bard E, Lane C, McGuire A, Robson TM, Takeshi Nakagawa T & Seddon AWR  
+by Heaton TJ, Wilkinson-Rowe E, Krüger LC, Bard E, Lane C, McGuire A, Robson TM, Nakagawa T & Seddon AWR  
 
 (EarthArXiV version available at https://eartharxiv.org/repository/view/12829/)
 
@@ -59,7 +59,7 @@ It will also create a plot of the design space (Figure S3). As the analysis runs
 
 - *003_Analyse_Cultivar_Experiment.R*
 
-Independent analysis of the greenhouse experiment on 60 cultivars of Pinus mugo var. Mumpitz reported in Materials and Methods. This experiment considers the relative _p_-CA response between a treatment group (irradiated with UV-B dose of 16.8 kJ m<sup>-2</sup> day<sup>-1</sup><sub>BE</sub>) and control group having no UV-B exposure (i.e., 0 kJ m<sup>-2</sup> day<sup>-1</sup><sub>BE</sub>). This code also generates Figure S6. 
+Independent analysis of the greenhouse experiment on 60 cultivars of Pinus mugo var. 'Mumpitz' reported in Materials and Methods. This experiment considers the relative _p_-CA response between a treatment group (irradiated with UV-B dose of 16.8 kJ m<sup>-2</sup> day<sup>-1</sup><sub>BE</sub>) and control group having no UV-B exposure (i.e., 0 kJ m<sup>-2</sup> day<sup>-1</sup><sub>BE</sub>). This code also generates Figure S6. 
 
 The analysis mimics that performed when comparing the relative increase in _p_-CA in subfossil pollen from the _Laschamps Event_ when compared to the other time periods sampled in the Lake Suigetsu sediment core.    
 
