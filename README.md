@@ -79,13 +79,21 @@ The code to perform the pre-processing steps to obtain the _p_-CA values for bot
 
 This code is self-contained can be run independently (the documentation is contained within the subdirectory) and will output the GCMS _p_-CA values used for analysis in the main paper.  
 
-## Independent Dataset: Lake Suigetsu pollen abundances
+## Independent Dataset with Lake Suigetsu pollen abundances
 
 The Lake Suigetsu pollen abundances that were used to create Figure S2 can be found in the subdirectory:
 
 - `data/Suigetsu_Pollen_Abundances`
 
 
+## How to cite
+If you wish to cite this data and analysis please use:
+
+Heaton TJ & Seddon AWR (2026). TJHeaton/Increased_UVB_Laschamps: Increased UV-B radiation at Earth's surface during the _Laschamps_ Geomagnetic Excursion (Version v1.1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23063303
+
+You can export the citation in different styles and formats by clicking the icon below:
+
+[![DOI](https://zenodo.org/badge/1171805963.svg)](https://doi.org/10.5281/zenodo.23063302)
 
 
 
